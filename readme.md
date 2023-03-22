@@ -1,1 +1,1 @@
-# Assignment 1 of Namaste React 
+# Assignments of Namaste React 
