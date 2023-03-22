@@ -52,3 +52,21 @@
 
 // we always need to put package.json and package-lock.json on github
 
+// just like we have npm we have also npx (node package executer)
+
+// CDN links are not the preferred way of bringing react in our project
+
+// we should always mention our package into package.json bcz its take record and care of packages. in future it can automatically can update that too so its a better idea 
+
+// when we create npx create react app that is already ignited but one should learn what engineering behind that goes on. what make that app ready to use
+
+// parcel does dev build -- creates a local server -- make HMR (Hot Module Replacement) is if you replace anything in DOM it never refresh page that bcs of HMR that parcel provide us
+// its use watching algo written is cpp
+// its use caching to give faster builds
+// ## - Image Optimization
+// ## - Minification
+// ## - Bundling files
+// ## - Compressing (Remove all white spaces too)
+// ## - Consistent Hashing 
+// ## - Code Splitting 
+// ## - Differential Bundling (support of old browser)

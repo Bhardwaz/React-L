@@ -1,3 +1,5 @@
+import React from "react"
+import ReactDOM  from "react-dom/client"
 // Although we can create a hello world in html and from javascript as well but in this case we want to create a hello world in React. So in react first i will make a Heading from createElement method of core react which eventually takes three parameter i.e tag, an object in which we can define all attributes and style etc and third is children. children can be anything in between text and some tag as well
 
 const heading = React.createElement('h1', {}, "React is very easy")
