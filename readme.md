@@ -1,4 +1,4 @@
-# Assignments of Namaste React 
+# Assignments of Namaste React  🚀
 
 # Parcel
 ## - Dev Build
