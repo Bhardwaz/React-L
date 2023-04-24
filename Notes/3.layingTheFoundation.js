@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 // i can make all the big applications without JSX also but JSX makes our life easy
 // JSX is just a convention to merge html and javascript both things up
 const jsxHeading = <h1 id="headingjsx">Namsate React Using JSX 🚀</h1> 
-console.log(jsxHeading); // this is also an object -- heading and jsxHeading are the same object -- in the core of react we create element using createElement -- but this is not readable and with jsx we write jsx but jsx is differenct from react 
+console.log(jsxHeading); // this is also an object -- heading and jsxHeading are the same object -- in the core of react we create element using createElement -- but this is not readable and with jsx we write jsx but jsx is different from react 
 root.render(jsxHeading)
 // most of the developers think we have written html inside javascript but no thats not accurate this is proper valid JSX not html 
 // this is not html inside javascript

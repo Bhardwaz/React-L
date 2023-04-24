@@ -1,0 +1,42 @@
+Config Driven UI
+This is the industry trend to use Config Driven UI in that i can show different UI Features, Offers etc or whatever i want according to users's geographical locations.
+   A Config is send by backend
+
+React is just a javascript library and it let you write less code and build performant apps of production standard
+
+React JS Does not Have any Opinion about File Structure
+Avoid Too Much Nesting. Do not overthink it
+
+export default Header -> Do this when you have only one Component in files
+export const Header() => {} -> Do this when you have more than one components in file  
+
+import {named expor}
+import ExportDefault
+
+whenever we have hard coded data we do not put that into any components or other files. we put that seprately into utils folder, config  or a dedicated folder for hardcore data
+
+React is Fast in DOM Manipulation.
+React Keeps in Front End and the data in sync if my UI Changes so my data and react does it so fast
+Got Question that why react is fast because it can do faster DOM manipulation because there is something called Diff Algorithm, reconciliation
+
+when we make a variable in react using useState Hook it becomes super powerful variable
+
+React Hooks are Normal Javascript Function. import {useState} from React Means someone has created const export useState = () => {} something like this in react core code
+
+Local State Variable
+const [card] = useState(null) 
+whatever we pass in useState will become default value of state variable
+now its something like this const card = null
+
+Normal JS Variable
+let card;
+
+whenever a state variable updates it re-renders the component 
+
+React is best because of re-rendering it does it so fast with reconciliation
+
+Reconciliation Algorithm (React Fiber)
+Suppose i have a variable with 50 restaurant card and my UI changes with 10 filtered restaurant card in React 
+
+First With 50 Restaurant React creates a virtual DOM (Not Actual DOM)
+Virtual DOM is the Representation of actual DOM

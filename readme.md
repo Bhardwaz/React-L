@@ -1,4 +1,4 @@
-# Assignments of Namaste React  🚀
+# Assignments of Namaste React 🚀
 
 # Parcel
 ## - Dev Build
@@ -17,3 +17,19 @@
 ## - Better Error Handling
 ## - HTTPS
 ## - Tree Shaking (Algo -- remove unused code)
+
+# App Structure
+## /**
+ * Header -
+ *       Logo Component
+ *       Nav Items
+ * Body -
+ *       Search 
+ *       Restaurant Container
+ *                 - Cards  
+ * Footer
+ *       Copyright
+ *       Links
+ *       Address
+ *       Contact
+ */
