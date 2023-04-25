@@ -40,3 +40,17 @@ Suppose i have a variable with 50 restaurant card and my UI changes with 10 filt
 
 First With 50 Restaurant React creates a virtual DOM (Not Actual DOM)
 Virtual DOM is the Representation of actual DOM
+
+What is the difference b/w incremental rendering and time slicing in react
+
+In very simple terms, time slicing and incremental rendering are both ways to make computer programs faster by breaking them into smaller pieces.
+
+Time slicing is a way to break a big task into smaller parts, so that the computer can work on each part for a little bit and then switch to something else, like taking turns with different tasks.
+
+Incremental rendering is a way to update a picture or a user interface by changing only the parts that need to be changed, instead of redrawing the whole picture every time. It's like adding or removing individual LEGO blocks from a tower, instead of rebuilding the entire tower every time you make a change.
+
+The time slicing feature is made possible through the use of a new React API called Suspense, which allows developers to define which parts of the component tree should be split into separate chunks and rendered asynchronously. Suspense also provides a way to handle loading states for those chunks, which can be useful for rendering large data sets or handling network requests.
+
+React uses incremental rendering as a core part of its architecture, using a technique called "virtual DOM diffing" to update only the parts of the UI that have changed, rather than re-rendering the entire UI from scratch. This means that when a component's state or props change, React compares the new and old virtual DOM representations of the component, and then updates only the parts that have changed in the actual DOM.
+
+ok what i have understood so far that time slicing break the component tree into chunks and incremental rendering updates the UI that changed async or diffing
